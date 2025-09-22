@@ -7,7 +7,7 @@ A professional bash script for processing TTF/OTF font files to create self-host
 **Original Author:** Leonardo Poletto (hello@leopoletto.com)  
 **AI Assistant:** Claude Sonnet 4 (Anthropic) via Cursor IDE
 
-This project was developed through collaboration between Leonardo Poletto and Claude Sonnet 4. Leonardo provided the original technical requirements, code improvements, performance optimizations, bug fixes, and security enhancements. Claude Sonnet 4 assisted with code refactoring, documentation generation, testing framework implementation, and structural improvements under Leonardo's technical direction and oversight.
+This project was developed through collaboration between Leonardo Poletto and Claude Sonnet 4. Leonardo provided the original working script and technical requirements. Claude Sonnet 4 assisted with code improvements, performance optimizations, bug fixes, security enhancements, code refactoring, documentation generation, testing framework implementation, and structural improvements under Leonardo's technical direction and oversight.
 
 The README documentation, LICENSE file, and test suite were generated with AI assistance but based on Leonardo's specifications and requirements.
 
