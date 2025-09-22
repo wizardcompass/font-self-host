@@ -2,6 +2,15 @@
 
 A professional bash script for processing TTF/OTF font files to create self-hosted font packages with comprehensive metadata extraction, WOFF2 conversion, and CSS generation.
 
+## Authorship & AI Assistance
+
+**Original Author:** Leonardo Poletto (hello@leopoletto.com)  
+**AI Assistant:** Claude Sonnet 4 (Anthropic) via Cursor IDE
+
+This project was developed through collaboration between Leonardo Poletto and Claude Sonnet 4. Leonardo provided the original technical requirements, code improvements, performance optimizations, bug fixes, and security enhancements. Claude Sonnet 4 assisted with code refactoring, documentation generation, testing framework implementation, and structural improvements under Leonardo's technical direction and oversight.
+
+The README documentation, LICENSE file, and test suite were generated with AI assistance but based on Leonardo's specifications and requirements.
+
 ## 🎯 Purpose
 
 This tool was created for **educational purposes** to demonstrate:

@@ -6,6 +6,7 @@
 !README.md
 !LICENSE.md
 !.gitignore
+!test_simple.sh
 
 # Ignore specific files/folders
 build.sh.backup

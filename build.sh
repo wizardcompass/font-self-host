@@ -26,11 +26,10 @@ set -euo pipefail
 
 readonly SCRIPT_NAME="$(basename "$0")"
 readonly SCRIPT_VERSION="2.0.0"
-readonly FONT_DIR="./fonts"
-readonly OUTPUT_DIR="./output"
-readonly README_FILE="$OUTPUT_DIR/README.md"
-readonly CSS_FILE="$OUTPUT_DIR/font-face.css"
-readonly LOG_FILE="$OUTPUT_DIR/build.log"
+
+# Default values (can be overridden by command line arguments)
+FONT_DIR="./fonts"
+OUTPUT_DIR="./output"
 
 # Colors for output
 readonly RED='\033[0;31m'
@@ -367,6 +366,11 @@ main() {
     # Set global variables
     export ENABLE_WOFF2="$enable_woff2"
     export VERBOSE="$verbose"
+    
+    # Set file paths based on OUTPUT_DIR
+    README_FILE="$OUTPUT_DIR/README.md"
+    CSS_FILE="$OUTPUT_DIR/font-face.css"
+    LOG_FILE="$OUTPUT_DIR/build.log"
     
     # Setup output directory first
     if [ -d "$OUTPUT_DIR" ] && [ "$force_overwrite" = false ]; then
